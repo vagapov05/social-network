@@ -1,12 +1,21 @@
 .nav {
+   padding: 20px;
+
    grid-area: n;
+
    background-color: burlywood;
 }
 
 .item {
+   text-decoration: none;
    color: white;
 }
 
+.item:hover {
+   color: gold;
+}
+
 .active {
+   text-decoration: none;
    color: gold;
 }
